@@ -7,10 +7,10 @@
 **What I learned in this project**:
 
   - Learned to create create beutiful website with footer, used flex and learned alot.
-  - Learned to create input as mentioned in design. 
+  - Learned to create inputbox with button over it and added email icon inside inputbox(more like placeholder but not placeholder). 
 
 
-**The project took ***3.5 Hours*** to complete.** 
+**The project took ***6 Hours*** to complete.** 
 
 ![image](https://img.shields.io/badge/INeuron-LearnCodeOnline-brightgreen)
 
