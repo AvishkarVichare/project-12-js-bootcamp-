@@ -436,3 +436,323 @@ footer{
 }
 
 
+/* burger  */
+
+.burger{
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    border: 2px solid transparent;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.burger:hover{
+    border: 2px solid #fffefe;
+}
+
+.burger>div{
+    background-color: #fffefe;
+    height: 4px;
+    width: 25px;
+}
+
+
+/* responsiveness */
+
+@media screen and (max-width:1200px) {
+
+    nav{
+        /* align-items: center; */
+    }
+    .logo>img{
+        height: 40px;
+        position: static;
+    }
+    .hero-left>img {
+        height: 450px;
+        width: 340px;
+    }
+
+    .hero-right{
+        width: 50%;
+    }
+    .nav-list{
+        gap: 25px;
+    }
+
+    .hero-right>h1 {
+font-size: 3.5rem;
+width: 500px;
+    }
+    .hero-right>p {
+        font-size: 17px;
+        width: 450px;
+    }
+
+    .contact-email {
+        width: 450px;
+    }
+
+    .section-1>h1 {
+        font-size: 2.5rem;
+    }
+    .number-content>h4 {
+        font-size: 2.2rem;
+    }
+    .number-content>p {
+        font-size: 16px;
+    }
+    .number-content{
+        gap: 5px;
+    }    
+    .section-1>img {
+        height: 480px;
+        width: 850px;
+    }
+
+.section-2>h1 {
+    font-size: 2.5rem;
+}
+.card{
+    gap: 40px;
+}
+
+.section-3{
+    padding: 0 50px;
+}
+.team-imgs{
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width:950px) {
+
+    .burger{
+        display: flex;
+    }
+    .nav-list li{
+        display: none;
+    }
+
+    .hero-right>p {
+        font-size: 16px;
+        width: 300px;
+    }
+    .hero-right>h1 {
+        font-size: 2.5rem;
+        width: 350px;
+    }
+    .hero-left>img {
+        height: 400px;
+        width: 300px;
+    }
+    .contact-email>input {
+        font-size: 13px;
+    }
+    .contact-email {
+        width: 340px;
+    }
+    .contact-email>button {
+        font-size: 15px;
+    }
+
+    .section-1>h1 {
+        font-size: 2.3rem;
+    }
+    .numbers {
+        gap: 50px;
+    }
+    .number-content>h4 {
+        font-size: 2rem;
+    }
+    .number-content>p {
+        font-size: 14px;
+    }
+    .section-1>img {
+        height: 390px;
+        width: 680px;
+    }
+    .section-2>h1 {
+        font-size: 2.3rem;
+    }
+
+    .card>div>h1 {
+        font-size: 2rem;
+    }
+    .card {
+        gap: 45px;
+    }
+    .section-2{
+        padding: 0 ;
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+    .card>div {
+        width: 300px;
+    }
+    .card>div>p {
+        font-size: 16px;
+    }
+    .card-img {
+        height: 290px;
+        width: 270px;
+    }
+    .card-btn {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .sec-3-head{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sec-3-head>h1{
+        font-size: 2.3rem;
+    }
+    .sec-3-head>p {
+        width: fit-content;
+        text-align: center;
+        margin-top: 30px;
+    }
+    footer{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .footer-content{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    nav{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .logo>img {
+        height: 35px;
+    }
+
+
+        .hero{
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        gap: 15px;
+    }
+    .hero-left{
+        /* width: 100%; */
+    }
+    .hero-left>img {
+        height: 360px;
+        width: 260px;
+    }
+    .hero-right{
+        width: 100%;
+        align-items: center;
+    }
+    .contact-email>button {
+        padding: 13px 16px;
+    }
+    .contact-email {
+        width: 290px;
+    }
+
+    .contact-email>img {
+        height: 25px;
+        width: 18px;
+    }
+
+    .contact-email>input {
+        padding-left: 25px;
+    }
+    .hero-right>h1 {
+        font-size: 2.2rem;
+        width: 316px;
+    }
+
+    .section-1>h1 {
+        font-size: 2rem;
+    }
+
+    .number-content>h4 {
+        font-size: 1.5rem;
+    }
+
+    .numbers {
+        gap: 20px;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .number-content>p {
+        font-size: 13px;
+        text-align: center;
+    }
+    .section-1>img {
+        height: 180px;
+        width: 280px;
+    }
+    .section-2>h1 {
+        font-size: 2rem;
+
+    }
+    .card{
+        flex-direction: column-reverse;
+    }
+    .card-img {
+        height: 255px;
+        width: 248px;
+    }
+    .card>div>h1 {
+        font-size: 1.5rem;
+    }
+
+    .sec-3-head>h1 {
+        font-size: 2rem;
+    }
+
+    .sec-3-head>h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .card>div {
+        width: 250px;
+    }
+    .section-3 {
+        padding: 0 35px;
+    }
+    .team-imgs{
+        gap: 35px;
+    }
+
+    .team-img>img {
+        width: 200px;
+        height: 280px;
+    }
+
+    .sec-3-head>p {
+        margin-top: 20px;
+        font-size: 17px;
+    }
+
+    .social-media div>img {
+        height: 15px;
+    }
+
+    .footer-header>img{
+        height: fit-content;
+        width: 80px;
+    }
+    .footer-header{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-content{
+        text-align: center;
+    }
+}
